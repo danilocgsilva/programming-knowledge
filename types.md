@@ -10,6 +10,7 @@ Ex:
 * -149
 * 0x1A
 * 0123
+* 0x1F
 
 ---
 
@@ -20,6 +21,8 @@ Ex:
 * 2.21334234125E+23
 * 5.54
 * 4.E-10
+* 018
+* 
 
 **Notice**: the example 2.21334234125E+23 could be an integer. But the php interpreter set it to a double.
 
