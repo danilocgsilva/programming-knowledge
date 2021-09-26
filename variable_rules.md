@@ -2,37 +2,18 @@
 
 Variables is a way that all programing languages allow to store values, or a simple data that may be recovered in another part of program are returned to some *final usage*.
 
-Usually, you have a big freedom in the most languages to write anything as a variable to be recovered in another part of program. Worth mention that only the "space" is something not allowabe or strongly not recomended to put as variable name.
+Usually, you may obey the following to write as a variable name:
+* Any alphanumeric character is allowed (uppercased and lowercased), plus the ubserscores character (`"_"`)
+* *Special characters* are not allowed, for example, @, %, ^ and so on.
+
+Worth to mention that programmers have have setted conventions to *style* variables names. Read for example this reference: https://winnercrespo.com/naming-conventions/. You are not required to follow any of those conventions, but it is good to follow one to adds consistency to your code and let it more easy and fast to be read.
 
 Nevertheless, different programming langues may varies a little in what is allowed to put as variables. Examples:
 
-* in **PHP**, *all* varibles with all kinds must be written preceded by "`$`" sign:
+* in **PHP**, *all* varibles with all kinds must be written preceded by "`$`" sign.
 
-```
-$name = "Clark Elyson";
-$ages = ["Twenty", 30, 2, "Eleven"];
-```
+* in **Perl**, just the *scalar* variables needs the "`$`" sign.
 
-The, to access those variables, use exactly same form as you defined them:
+* in **Erlang**, variables *must* start with a uppercased character.
 
-```
-print("The user name is " . $name);
-foreach ($ages as $age) {
-```
-
-* in **javascript** there few ways to declare variables with *subtle differences*. But the following are all valid forms to do so:
-
-```
-name = "Robert Mazera";
-let name2 = "Ellen Petch";
-var name3 = "Helena Maldonado";
-```
-
-To access them just type them as they are:
-
-```
-console.log("The first name is " + name);
-console.log("The second name is " + name2);
-console.log("The third name is " + name3);
-```
-
+* in **javascript**, **C#**, **Java**, **Python**, **Shell** and others no special rule beyond the general as chossing a variable name.
