@@ -101,3 +101,26 @@ Ex:
 
 Notice that I've put a scientifc notation value both in the *Float* and *Integer*. Remember a statement above: *Perl's type system is based around data structures, not data types.*. So as continuing the reading from original text, then does not matter if 8.22e04 is considerada an integer or a float. The 8.22e04 *data structure* meets both the requirements for float operation as well the integers ones.
 
+## Dart
+
+In Dart, as in C#, C, C++, Java and others, every time you create a variable you need to declare its type before the variable name.
+
+Example:
+
+```
+int age = 31;
+String name = "Danilo";
+double distance = 24.6;
+```
+
+**Integer**
+
+int age = 31;
+
+**String**
+
+String name = "Danilo";
+
+**Double**
+
+double distance = 24.6;
