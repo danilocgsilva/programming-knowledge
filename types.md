@@ -115,14 +115,26 @@ double distance = 24.6;
 
 **Integer**
 
+```
 int age = 31;
+```
 
 **String**
 
+```
 String name = "Danilo";
+```
 
 **Double**
 
+```
 double distance = 24.6;
+```
 
 **Function**
+
+**List**
+
+```
+List names = ['Robert', 'Anne', 'Oswald'];
+```
