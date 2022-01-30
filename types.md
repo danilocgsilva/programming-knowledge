@@ -148,3 +148,9 @@ Map<int, String> ddds = {
     41: 'Curitiba'
 }
 ```
+
+**Enum**
+
+```
+enum Status {done, processing, awaiting}
+```
