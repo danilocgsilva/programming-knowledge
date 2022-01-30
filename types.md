@@ -124,3 +124,5 @@ String name = "Danilo";
 **Double**
 
 double distance = 24.6;
+
+**Function**
