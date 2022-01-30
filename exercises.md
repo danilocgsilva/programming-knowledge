@@ -16,6 +16,8 @@
 
 5. Create a *variable dice*. Suppose that you will always requires throw dices with diffenrent sides. Create a single function that allows you to have random numbers from 1 until 6, 4, 8, 10, 12, 20, 7, 66, 102, 1005, or whichever the user wants.
 
+6. Creates a function that tells an *amount of oranges that you have*. For example: if a have no oranges, then prints "I have no organges.". If I have one orange, them prints "I have one orange". If have 2 or more oranges, them prints "I have several oranges".
+
 ## Basic of classes
 
 1. Write a class called `Person`. The class must have it's height and weight as a property. Also, a property called name (helding the person name) to facilitates the person identification. Then, in the class itself also must have a method that calculates the BMI, call this method as `getMbi`. And finally, write another method called `condition`, that just prints a *person condition*, stating that the person is *thin*, *normal* or *overweight*, based on the data in https://www.diabetes.ca/managing-my-diabetes/tools---resources/body-mass-index-(bmi)-calculator. 
