@@ -21,3 +21,15 @@
 ## Basic of classes
 
 1. Write a class called `Person`. The class must have it's height and weight as a property. Also, a property called name (helding the person name) to facilitates the person identification. Then, in the class itself also must have a method that calculates the BMI, call this method as `getMbi`. And finally, write another method called `condition`, that just prints a *person condition*, stating that the person is *thin*, *normal* or *overweight*, based on the data in https://www.diabetes.ca/managing-my-diabetes/tools---resources/body-mass-index-(bmi)-calculator. 
+
+## Under the hood - papper training
+
+1. Convert the following numbers to binary.
+
+* 99
+* 124
+* 155
+* 144
+* 391
+* 207
+* 727
