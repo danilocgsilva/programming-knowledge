@@ -1,5 +1,12 @@
 # Exercises
 
+* [Very basic](#very-basic)
+* [Problems solved by the basics](#problems-solved-by-the-basics)
+* [Basic of classes](#basic-of-classes)
+* [Under the hood - papper training](#under-the-hood---papper-training)
+* [Advanced](#Advanced)
+
+
 ## Very basic
 
 1. Write a loop that prints `hello` ten times.
@@ -33,3 +40,38 @@
 * 391
 * 207
 * 727
+
+## Advanced
+
+We got the following contry - sequence pair, with 12 contries:
+
+* Eritrea - 465
+* Kazakhstan - 646
+* Philippines - 385
+* Saudi Arabia - 391
+* Palau - 416
+* Northern Cyprus - 130
+* United Arab Emirates - 348
+* Cuba - 101
+* Cyprus - 561
+* Zimbabwe - 518
+* Tanzania - 513
+* Brunei - 91
+
+Rewrite the sequence number for all conutries, starting from 1, followed by its exact following number, obeying exact same sequence dicted by the original sequence number.
+
+For example, you have:
+
+* CountryA - 49
+* CountryB - 79
+* CountryC - 7
+* CountryD - 43
+
+Then rewrite:
+
+* CountryA - 3
+* CountryB - 4
+* CountryC - 1
+* CountryD - 2
+
+Observation: good if you write your own algorithm to reorder instead of using a high level function from some language. If you want to do so first, ok. But after create your own algorithm to reorder.
