@@ -4,7 +4,6 @@
 * [Problems solved by the basics](#problems-solved-by-the-basics)
 * [Basic of classes](#basic-of-classes)
 * [Under the hood - papper training](#under-the-hood---papper-training)
-* [Advanced Exercises](#advanced-exercises)
 * [Advanced Problemas](#advanced-problems)
 
 
@@ -48,16 +47,14 @@
 * 226
 * 95
 
-## Advanced exercises
-
-1. What is the result of the following expressions? Considers to store number in with 16 bits.
+2. What is the result of the following expressions? Considers to store number in with 16 bits when necessary.
 
 * a. `222 << 2`
 * b. `56 & 33`
 * c. `534 >> 1`
 * d. `765 | 34`
 * e. `224 ^ 401`
-* f. `~198`
+* f. `~198` (this one, you can provide the answer in binary)
 
 ## Advanced problems
 
