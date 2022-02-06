@@ -8,3 +8,5 @@ for ($i = 1; $i <= 16; $i++) {
     print("2 powers $i is " . $resultado . "\n");
 }
 ```
+
+2. The expression A, `5.1 + 100005.2 - 100005.2` and B, `100005.2 - 100005.2 + 5.1` represents exact same result. But if tested in Perl, expression A may incur in a round error, while expression B may be evaluated correctly. Why?
