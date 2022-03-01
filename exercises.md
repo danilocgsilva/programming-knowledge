@@ -5,7 +5,7 @@
 * [Basic of classes](#basic-of-classes)
 * [Under the hood - papper training](#under-the-hood---papper-training)
 * [Advanced Problemas](#advanced-problems)
-
+* [Design patterns](#design-patterns)
 
 ## Very basic
 
@@ -90,3 +90,64 @@ Then rewrite:
 * CountryD - 2
 
 Observation: good if you write your own algorithm to reorder instead of using a high level function from some language. If you want to do so first, ok. But after create your own algorithm to reorder.
+
+# Design Patterns
+
+1. Check the following module:
+
+Pattern.py
+```py
+from src.FormatString import FormatString
+from src.FormatNumber import FormatNumber
+
+
+class Pattern:
+
+    @staticmethod
+    def doing(type: str):
+        
+        if type == "number":
+            return FormatNumber()
+        elif type == "string":
+            return FormatString()
+        raise ValueError("Unknown format given")
+```
+
+FormatterInterface.py
+```py
+import abc
+
+
+class FormatterInterface(abc.ABC):
+
+    @staticmethod
+    @abc.abstractmethod
+    def format(input: str) -> str:
+        pass    
+```
+
+FormatString.py
+```py
+from src.FormatterInterface import FormatterInterface
+
+
+class FormatString(FormatterInterface):
+
+    @staticmethod
+    def format(input: str) -> str:
+        return input
+```
+
+FormatNumber.py
+```py
+from src.FormatterInterface import FormatterInterface
+
+
+class FormatNumber(FormatterInterface):
+
+    @staticmethod
+    def format(input: str) -> str:
+        return str(round(float(input), 0))
+
+```
+Which is the name of the pattern, considering the patterns of GOF? In which category does the pattern falls?
