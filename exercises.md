@@ -6,6 +6,7 @@
 * [Under the hood - papper training](#under-the-hood---papper-training)
 * [Advanced Problemas](#advanced-problems)
 * [Design patterns](#design-patterns)
+* [Regular expressions](#regular-expressions)
 
 ## Very basic
 
@@ -89,6 +90,13 @@ Then rewrite:
 * CountryC - 1
 * CountryD - 2
 
+So, sorting the sequence obeying the new sequence, you will get:
+
+* CountryC - 1
+* CountryD - 2
+* CountryA - 3
+* CountryB - 4
+
 Observation: good if you write your own algorithm to reorder instead of using a high level function from some language. If you want to do so first, ok. But after create your own algorithm to reorder.
 
 # Design Patterns
@@ -99,7 +107,6 @@ Pattern.py
 ```py
 from src.FormatString import FormatString
 from src.FormatNumber import FormatNumber
-
 
 class Pattern:
 
@@ -117,7 +124,6 @@ FormatterInterface.py
 ```py
 import abc
 
-
 class FormatterInterface(abc.ABC):
 
     @staticmethod
@@ -130,7 +136,6 @@ FormatString.py
 ```py
 from src.FormatterInterface import FormatterInterface
 
-
 class FormatString(FormatterInterface):
 
     @staticmethod
@@ -142,7 +147,6 @@ FormatNumber.py
 ```py
 from src.FormatterInterface import FormatterInterface
 
-
 class FormatNumber(FormatterInterface):
 
     @staticmethod
@@ -151,3 +155,18 @@ class FormatNumber(FormatterInterface):
 
 ```
 Which is the name of the pattern, considering the patterns of GOF? In which category does the pattern falls?
+
+## Regular Expressions
+
+Given the regex:
+
+`/de+f/`
+
+What patterns matches successfully (more than one option may be correct)?
+
+1. `def`
+2. `deff`
+3. `deeeef`
+4. `deffff`
+5. `de`
+
