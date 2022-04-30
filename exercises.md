@@ -158,7 +158,7 @@ Which is the name of the pattern, considering the patterns of GOF? In which cate
 
 ## Regular Expressions
 
-Given the regex:
+1. Given the regex:
 
 `/de+f/`
 
@@ -170,3 +170,4 @@ What patterns matches successfully (more than one option may be correct)?
 4. `deffff`
 5. `de`
 
+2. Which is the difference between `*`, `?` and `+`?
