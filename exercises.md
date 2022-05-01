@@ -164,10 +164,12 @@ Which is the name of the pattern, considering the patterns of GOF? In which cate
 
 What patterns matches successfully (more than one option may be correct)?
 
-1. `def`
-2. `deff`
-3. `deeeef`
-4. `deffff`
-5. `de`
+1) `def`
+2) `deff`
+3) `deeeef`
+4) `deffff`
+5) `de`
 
 2. Which is the difference between `*`, `?` and `+`?
+
+3. Which is the word boundary pattern anchor?
