@@ -32,4 +32,4 @@ A) An array: `("Robert", "Doe")`
 
 B) An array: `(2)`
 
-
+3. Describes the behavior of the `<>` operator.
