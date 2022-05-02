@@ -173,3 +173,9 @@ What patterns matches successfully (more than one option may be correct)?
 2. Which is the difference between `*`, `?` and `+`?
 
 3. Which is the word boundary pattern anchor?
+
+4. What `\d` means?
+
+5. What `\s` means?
+
+6. What is the difference between `d.*f` and `d.+f`?
