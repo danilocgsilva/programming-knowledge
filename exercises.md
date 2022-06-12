@@ -99,6 +99,39 @@ So, sorting the sequence obeying the new sequence, you will get:
 
 Observation: good if you write your own algorithm to reorder instead of using a high level function from some language. If you want to do so first, ok. But after create your own algorithm to reorder.
 
+2. *The RPG character maker*
+
+All participants from a RPG game plays as a specific character. Any character have a set of abilities, and all of those abilities have a score representing the mastery of the character on the specific abilities.
+
+All character have the following abilities:
+
+* Strength
+* Dexterity
+* Constitution
+* Intelligence
+* Wisdom
+* Charisma
+* Comeliness
+* Endurance
+* Education
+* Vitality
+* Willpower
+* Quickness
+
+Thus, 12 abilities.
+
+Lets start a RPG game. And at the beggining, the participants must assign abilities scores to the character to which he or she will play. Each participant will have an amount of score to distribute across each ability. This initial score is assigned to an *luck factor*. To determine its initial score to distribute, the participant must throw a dice of 4 twelven times and sum the results for each throw. Having its initial score, he can distribute the points across the twelve abilities as he wants. He must assign at least 1 to each score. Assign 0 is not alowed. But there's no score limit to assign to each ability, as long the sum of all abilities does not overflow the initial score.
+
+Lets write a program that:
+
+a) Generates the initial score to distribute across all abilities.
+
+This means that the results from this calculations must simulates a participant throwing a dice of four twenve times.
+
+b) Automatically and randomly assign the ability scores to each of twelve abilities
+
+This means that the sum of all twelve abilities must match the initial score give.
+
 # Design Patterns
 
 1. Check the following module:
