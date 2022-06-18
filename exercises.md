@@ -212,3 +212,10 @@ What patterns matches successfully (more than one option may be correct)?
 5. What `\s` means?
 
 6. What is the difference between `d.*f` and `d.+f`?
+
+7. I want to type a regular expression thats matches both a single new line and a empty entrance. Wich one is the correct answer?
+
+* a) `/[\n|]/`
+* b) `/(\n|)/`
+
+
