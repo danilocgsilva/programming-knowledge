@@ -57,3 +57,23 @@ do {
 	print($count . "\n"); 
 } while ($count++ < 5); 
 ```
+
+5. Which is the output of the following code:
+```php
+<?php
+
+$count = 0;
+while ($count++ < 5) {
+	print($count . "\n");
+}
+```
+
+6. Whicj is the output of following script:
+```php
+<?php
+
+$count = 0;
+while (++$count < 5) {
+	print($count . "\n");
+}
+```

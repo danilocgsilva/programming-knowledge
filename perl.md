@@ -21,7 +21,7 @@ represents exact same result. But if tested in Perl, expression A may incur in a
 
 3. Given the script:
 
-```
+```perl
 @my_array = ("John", "Robert", "Doe");
 @quesion_array = @my_array-1;
 ```
@@ -33,3 +33,9 @@ A) An array: `("Robert", "Doe")`
 B) An array: `(2)`
 
 3. Describes the behavior of the `<>` operator.
+
+4. Which is the output of the following script?
+```perl
+$count = 0;
+print($count . "\n") while ($count++ < 5);
+```
