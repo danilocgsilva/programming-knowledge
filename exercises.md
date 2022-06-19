@@ -218,4 +218,6 @@ What patterns matches successfully (more than one option may be correct)?
 * a) `/[\n|]/`
 * b) `/(\n|)/`
 
+8. What means the following pattern:
 
+* `[^0-9]`
