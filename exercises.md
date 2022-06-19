@@ -1,6 +1,7 @@
 # Exercises
 
 * [Very basic](#very-basic)
+* [Easy](#easy)
 * [Problems solved by the basics](#problems-solved-by-the-basics)
 * [Basic of classes](#basic-of-classes)
 * [Under the hood - papper training](#under-the-hood---papper-training)
@@ -11,6 +12,12 @@
 ## Very basic
 
 1. Write a loop that prints `hello` ten times.
+
+2. Writes a script that receives a number as command line argument and sum all numbers from 1 until the given number and prints the result as a script output.
+
+## Easy
+
+1. Writes a script that receives a number as command line argument and sum all numbers from 1 until the given number. Also, sum all even values. Them, as a scrip output, writes the sum from all numbers, and the sum of all even numbers as well.
 
 ## Problems solved by the basics
 
