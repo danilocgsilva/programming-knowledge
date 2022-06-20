@@ -33,6 +33,7 @@ while ($count <= 10) {
 }
 ```
 
+3. Writes a script that keeps continually receiving a phrase from the user in the command line or that receives data from an file content through redirection, and as output for each line is the word's number from the phrase.
 
 ## Problems solved by the basics
 
