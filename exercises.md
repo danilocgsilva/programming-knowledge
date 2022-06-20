@@ -19,6 +19,21 @@
 
 1. Writes a script that receives a number as command line argument and sum all numbers from 1 until the given number. Also, sum all even values. Them, as a scrip output, writes the sum from all numbers, and the sum of all even numbers as well.
 
+2. Can you find a problem in the following perl script?
+
+**Worth to say**: The `next` statement means that the loop block should be interrupted in the current iteration e continues to the next iteration.
+
+```perl
+$count = 0;
+while ($count <= 10) {
+    if ($count == 5) {
+        next;
+    }
+    $count++;
+}
+```
+
+
 ## Problems solved by the basics
 
 1. Write a program that prints every number from 0 to 1 that has a single digit after the decimal place (that is, 0.1, 0.2 and so on).
