@@ -13,7 +13,11 @@
 
 1. Write a loop that prints `hello` ten times.
 
-2. Writes a script that receives a number as command line argument and sum all numbers from 1 until the given number and prints the result as a script output.
+2. Prints numbers from 1 to 12.
+
+3. Prints even numbers from 2 to 24.
+
+4. Writes a script that receives a number as command line argument and sum all numbers from 1 until the given number and prints the result as a script output.
 
 ## Easy
 
