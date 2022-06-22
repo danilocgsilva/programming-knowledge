@@ -248,3 +248,7 @@ What patterns matches successfully (more than one option may be correct)?
 8. What means the following pattern:
 
 * `[^0-9]`
+
+9. What means the following pattern:
+
+* `[\d]{4}`
