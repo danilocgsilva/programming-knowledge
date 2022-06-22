@@ -252,3 +252,7 @@ What patterns matches successfully (more than one option may be correct)?
 9. What means the following pattern:
 
 * `[\d]{4}`
+
+10. What means the following pattern:
+
+* `^[^\d{4}-\d{2}-\d{2}]`
