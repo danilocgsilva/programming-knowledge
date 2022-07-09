@@ -39,3 +39,13 @@ B) An array: `(2)`
 $count = 0;
 print($count . "\n") while ($count++ < 5);
 ```
+
+5. Given the following statements:
+```
+@list2 = ("John", "Mike", "Larissa", "Beatrice");
+($scalar, @list1) = @list2;
+```
+
+A) What is the value of `$scalar`?
+
+B) What is the value of `@list1`?
