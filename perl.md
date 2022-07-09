@@ -59,3 +59,5 @@ B) What is the value of `@list1`?
 A) What is the value of `@list1`?
 
 B) What is the value of `$scalar`?
+
+7. What is the difference between `<=>` and `cmp`?
