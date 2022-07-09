@@ -49,3 +49,13 @@ print($count . "\n") while ($count++ < 5);
 A) What is the value of `$scalar`?
 
 B) What is the value of `@list1`?
+
+6. Given the following statements:
+```
+@list2 = ("John", "Mike", "Larissa", "Beatrice");
+(@list1, $scalar) = @list2;
+```
+
+A) What is the value of `@list1`?
+
+B) What is the value of `$scalar`?
