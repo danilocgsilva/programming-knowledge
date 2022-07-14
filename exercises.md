@@ -39,6 +39,8 @@ while ($count <= 10) {
 
 3. Writes a script that keeps continually receiving a phrase from the user in the command line or that receives data from an file content through redirection, and as output for each line is the word's number from the phrase.
 
+4. Write a function that takes an array with a even count, then breaks the array in the ralf, extracting other two arrays, one with the first half of the values and another with the second half of the values.
+
 ## Problems solved by the basics
 
 1. Write a program that prints every number from 0 to 1 that has a single digit after the decimal place (that is, 0.1, 0.2 and so on).
