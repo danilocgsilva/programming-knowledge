@@ -25,7 +25,7 @@
 
 2. Can you find a problem in the following perl script?
 
-**Worth to say**: The `next` statement means that the loop block should be interrupted in the current iteration e continues to the next iteration.
+**Worth to say**: The `next` statement means that the loop block should be interrupted in the current iteration and continues to the next iteration.
 
 ```perl
 $count = 0;
@@ -39,7 +39,17 @@ while ($count <= 10) {
 
 3. Writes a script that keeps continually receiving a phrase from the user in the command line or that receives data from an file content through redirection, and as output for each line is the word's number from the phrase.
 
-4. Write a function that takes an array with a even count, then breaks the array in the ralf, extracting other two arrays, one with the first half of the values and another with the second half of the values.
+4. Write a function that takes an array with a even count, then breaks the array in the half, extracting other two arrays, one with the first half of the values and another with the second half of the values.
+
+5. Creates a relational database as beign a business data schema:
+
+* Register an employee
+* Register a department
+* A department must be managed by *just s single employee*.
+* Several employees can belogns to a single department
+* An employee cannot work on more than one department at a same time.
+* Register a project
+* An employee can have none, one or several projects
 
 ## Problems solved by the basics
 
@@ -258,3 +268,9 @@ What patterns matches successfully (more than one option may be correct)?
 10. What means the following pattern:
 
 * `^[^\d{4}-\d{2}-\d{2}]`
+
+11. Write a regex that finds all following words at once:
+
+```
+bar ber bir bor bur
+```
