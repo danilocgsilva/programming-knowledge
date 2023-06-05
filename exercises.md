@@ -43,13 +43,18 @@ while ($count <= 10) {
 
 5. Creates a relational database as beign a business data schema:
 
-* Register an employee
-* Register a department
+* Register an employee.
+* Register a department.
 * A department must be managed by *just s single employee*.
-* Several employees can belogns to a single department
-* An employee cannot work on more than one department at a same time.
-* Register a project
-* An employee can have none, one or several projects
+* Several employees can belogns to a single department.
+* An employee can work on several projects at once.
+* Register a project.
+* An employee can have none, one or several projects.
+* Department can control several projects. A department can exists without an project.
+* If a project exists, it MUST HAVE a department.
+* A project must have a unique number.
+* A project also MUST NOT exists without an eployee.
+* An emplyee can supervisor another employee.
 
 ## Problems solved by the basics
 
