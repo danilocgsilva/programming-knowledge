@@ -281,6 +281,11 @@ What patterns matches successfully (more than one option may be correct)?
 bar ber bir bor bur
 ```
 
+12. What does this regex does?
+```
+s/[^aeiou]//g
+```
+
 ## Specific ones
 
 In what language this array value assigment is valid?
