@@ -8,6 +8,7 @@
 * [Advanced Problemas](#advanced-problems)
 * [Design patterns](#design-patterns)
 * [Regular expressions](#regular-expressions)
+* [Specifics ones](#specific-ones)
 
 ## Very basic
 
@@ -278,4 +279,12 @@ What patterns matches successfully (more than one option may be correct)?
 
 ```
 bar ber bir bor bur
+```
+
+## Specific ones
+
+In what language this array value assigment is valid?
+
+```
+$vowelcount{$vowel} += 1;
 ```
