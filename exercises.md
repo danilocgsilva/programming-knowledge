@@ -9,6 +9,7 @@
 * [Design patterns](#design-patterns)
 * [Regular expressions](#regular-expressions)
 * [Specifics ones](#specific-ones)
+* [Algorithms](#algorithms)
 
 ## Very basic
 
@@ -293,3 +294,19 @@ In what language this array value assigment is valid?
 ```
 $vowelcount{$vowel} += 1;
 ```
+
+## Algorithms
+
+1. Check the following code:
+```
+void printBinary(unsigned int num) {
+    if (num > 1) {
+        printBinary(num / 2);
+    }
+    printf("%d", num % 2);
+}
+```
+
+1.1 Can you tell what the code does?
+
+1.2 Can you tell in which language it is written?
