@@ -89,3 +89,12 @@ Number of vowels found in text file:
 ===============================================================
 .
 ```
+
+9. Which usually the *modifiers* variable means about the kind of the variable?
+
+a) `$my_variable`
+
+b) `@my_variable`
+
+c) `%my_variable`
+
