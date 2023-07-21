@@ -98,3 +98,10 @@ b) `@my_variable`
 
 c) `%my_variable`
 
+10. What does the following subroutine do?
+
+```
+sub occurrences {
+    $lettercount{$a} <=> $lettercount{$b};
+}
+```

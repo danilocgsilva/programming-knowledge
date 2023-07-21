@@ -287,6 +287,14 @@ bar ber bir bor bur
 s/[^aeiou]//g
 ```
 
+13. Whats is the difference of the following regex?
+
+* a) `s/<.*>//g`
+
+* b) `s/<.>//g`
+
+* c) `s/<.*?>//g`
+
 ## Specific ones
 
 In what language this array value assigment is valid?
