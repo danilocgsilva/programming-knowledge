@@ -68,12 +68,64 @@ while ($count++ < 5) {
 }
 ```
 
-6. Whicj is the output of following script:
+6. Which is the output of following script:
 ```php
 <?php
 
 $count = 0;
 while (++$count < 5) {
 	print($count . "\n");
+}
+```
+
+7. Can you simplify the following class?
+```
+<?php
+
+declare(strict_types=1);
+
+namespace Danilocgsilva\Hanoi;
+
+use Exception;
+
+class Stack
+{
+    private array $discs = [];
+    private ?Disc $topDisc = null;
+
+    public function add(Disc $disc)
+    {
+        if (count($this->discs) > 0) {
+            if ($this->topDisc->getSize() < $disc->getSize()) {
+                throw new Exception("You cannot pile a disc bigger than the one currently on top.");
+            }
+        }
+
+        $this->discs[] = $disc;
+        
+        $this->topDisc = $disc;
+    }
+
+    public function removeDisc(): Disc
+    {
+        if (empty($this->discs)) {
+            throw new Exception("No discs left to remove.");
+        }
+
+        $topDisc = array_pop($this->discs);
+
+        if (empty($this->discs)) {
+            $this->topDisc = null;
+        } else {
+            $this->topDisc = end($this->discs);
+        }
+
+        return $topDisc;
+    }
+
+    public function getTopDisc(): ?Disc
+    {
+        return $this->topDisc;
+    }
 }
 ```
