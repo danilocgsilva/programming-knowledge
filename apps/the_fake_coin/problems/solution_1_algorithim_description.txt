@@ -1,0 +1,7 @@
+1. Get two coins
+2. Weigths the two choosen coins
+3. Weights the last of two choosed coins
+4. If weight of last coin is exact the half of two coins measured together and there are two or more coins not measured yet, choose other two any coins and go to step 1.
+5. If the weight of . . .  and there are just one coin not weigthed yet, you found! The fake coin is the last one not weigthed yet!
+6. If the weight of the last measured coin is the less than the half of weight from the two coins weigthed, then you found! The fake coin is the first out of the two measured.
+7. If the weight of the last measured coin is is more than the half of weight from the two coins weighted, then you found! The fake coin is the first one measure out of the two.

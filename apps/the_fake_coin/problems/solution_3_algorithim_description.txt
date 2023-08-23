@@ -1,0 +1,13 @@
+1. Sort one coin
+2. Register its weigh
+3. Sort another coin
+4. Register its weigh as well
+5. Compares the weigh from the first coin and the last weighed
+If the weigh is exact the same
+  6. Sort another coin that was not weighed yet AND GO BACK TO THE STEP 4
+If the weigh of from the second coin is greater then the ever first coin weighed
+  6. The fake coin is the first one
+  End
+If the weigh of the second coin is less than the first ever coin weighed
+  6. The fake coin is the second one
+  End

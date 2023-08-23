@@ -1,0 +1,16 @@
+1. Sort two coins out from all coins
+2. Get the weigh of two coins
+3. Get the weigh of both coins
+4. Compares the weigh from two coins and the last choosed
+If the weigh from the last coin is less than the half of the coins weighted together
+  5. The fake coin is the last coin weighed
+  End
+Else if the weigh of the last coin is greater tha the half of two coins weighed together
+  5. The fake coin is the first one weighed
+  End
+Else if the weigh from the last coin is exact the same as the half from two weighed coins
+  If there are more than two coins left not weighed:
+    5. Sort two from remaining coins and GO BACK TO STEP 2
+  If there are just one coin left not weighed:
+    5. The fake coin is the last one not weighed yet
+    End

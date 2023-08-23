@@ -1,0 +1,25 @@
+1. Sort two out from coins
+2. Weigh the two coins
+If there's exists a note from weigh from the first two coins
+  3. compare with the weigh from the first weighing
+  If the weigh is the same as the first measurement
+    If there are more than a single coin left
+      4. Sorts two of remaining coins AND GO BACK TO STEP 2
+    Else, if just one left
+      4. The fake coin is found! Is the left one that still was not weighet
+      End
+If there's no register for the first measurement
+  3. Register the result of measurement
+  4. Get the weigh from last coin
+  If the weigh from the last coin is less than the half of the weight from two coins
+    5. The fake coin is the second coin
+    End
+  Else if the weigh of the last coin is greater than the half of the two coins
+    5. The fake coin is the first from weighin
+    End
+  Else if the weigh of the last coin is exact the half from the two coins from weigh
+    If there are more than a single coin not weighed yet
+      5. Sort two from the ramaining coins AND GO BACK TO STEP 2
+    Else if there are only one coin left not weighed
+      5. The fake coin is the last one left not weighed
+      End
