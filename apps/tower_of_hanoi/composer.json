@@ -1,0 +1,11 @@
+{
+    "name": "danilocgsilva/hanoi",
+    "autoload": {
+        "psr-4": {
+            "Danilocgsilva\\Hanoi\\": "src"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
