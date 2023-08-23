@@ -1,0 +1,15 @@
+{
+    "name": "danilocgsilvame/the-fake-coin",
+    "autoload": {
+        "psr-4": {
+            "Danilocgsilvame\\TheFakeCoin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Danilo Silva",
+            "email": "contact@danilocgsilva.me"
+        }
+    ],
+    "require": {}
+}
