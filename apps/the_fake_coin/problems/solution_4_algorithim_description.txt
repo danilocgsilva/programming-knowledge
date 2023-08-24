@@ -1,0 +1,26 @@
+1. Separate all coins in two groups, trying match in the middle. If the whole group has a even number of coins, separates exact on the middle. If in odd number, set any of the group having just one coin more than another group.
+2. Weigh the group one
+3. Weigh the group two
+4. Discover in which group the lightest coin is using proportionality
+If one of the group has only one coin and another group has two coins
+  If the fake coin is in the group of two coins, GO BACK TO STEP 1 WITH THIS GROUP
+  Else if the fake coin is in the group of one coin
+    5. The fake coin is in the lightest group
+    End
+Else if both group has one coin
+  5. The fake group is in the lightest group
+  End
+
+Note: this is the solution more closely related to the answer that the Chatgpt gave. Just for know, here is what Chatgpt gave:
+---
+Now, regarding the algorithm to identify the fake coin with the minimum possible measurements, you can use a process of elimination. Here's an algorithmic approach:
+
+1. Label the coins as A, B, C, D, and E for simplicity.
+2. Weigh coins A, B, and C against coins D and E. There are three possible outcomes:
+   a. If the scale is balanced, the fake coin is among D or E. Move to step 3.
+   b. If the scale tilts, you know either A, B, or C is fake. Move to step 4.
+3. Weigh coins D and E against each other. The lighter one is the fake coin.
+4. If the scale tilts in step 2, weigh coins A and B against each other. If they balance, then coin C is fake. If they don't balance, the lighter coin among A and B is fake.
+
+This algorithm ensures that you can determine the fake coin with just two uses of the scale in the worst case scenario.
+---
