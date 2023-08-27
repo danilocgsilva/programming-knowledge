@@ -4,12 +4,13 @@ declare(strict_types=1);
 
 namespace Danilocgsilvame\TreeWaterBottles;
 
-final class Bottle 
+final class Bottle
 {
     public function __construct(
         private readonly float $capacity,
         private float $currentLevel
-    ) {}
+    ) {
+    }
 
     public function getCapacity(): float
     {
@@ -23,14 +24,17 @@ final class Bottle
 
     public function pour(Bottle $bottle): void
     {
-        $this->currentLevel = $bottle->removeLevel();
+        $amountToPour = min(
+            $this->currentLevel, 
+            $bottle->getCapacity() - $bottle->getCurrentLevel()
+        );
+
+        $this->currentLevel -= $amountToPour;
+        $bottle->fill($amountToPour);
     }
 
-    public function removeLevel(): float
+    public function fill(float $amount): void
     {
-        $levelToPour = $this->currentLevel;
-        $this->currentLevel = 0.0;
-        return $levelToPour;
+        $this->currentLevel += $amount;
     }
 }
-
