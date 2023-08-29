@@ -71,3 +71,21 @@ revelar()
 console.log(segredo)
 ```
 What will be printed on the console?
+
+4. Given the two code:
+
+First
+```javascript
+for (var i = 0; i < 10; i++) {
+console.log(i)
+}
+```
+
+Second:
+```
+for (let i = 0; i < 10; i++) {
+  console.log(i)
+}
+console.log(i)
+```
+Is there some difference in terms of behavior of two forms or both will behave exact the same? If so, what will be the difference between behaviors of the two codes?
