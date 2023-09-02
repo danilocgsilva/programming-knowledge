@@ -1,0 +1,1 @@
+Measures time in milliseconds for adding a random number between 0 and 1 1 billion of times.
