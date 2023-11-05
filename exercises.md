@@ -318,3 +318,7 @@ void printBinary(unsigned int num) {
 1.1 Can you tell what the code does?
 
 1.2 Can you tell in which language it is written?
+
+2. Write an algorithm to solve the second degree equation. Just to rememeber, a second degree equation can be in the form of (a)x<sup>2</sup> + (b)x + c = 0. The Bhaskara equation is:
+
+![Sample image](pictures/bhaskara.png)
