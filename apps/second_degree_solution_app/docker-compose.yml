@@ -1,0 +1,11 @@
+version: '3.5'
+
+services:
+  nodeserver:
+    container_name: node_server
+    ports:
+      - 8080:8080
+    build:
+      context: .
+    volumes:
+      - ./app:/app
