@@ -78,6 +78,12 @@ f) $$ \log_{-2} 16 = x $$
 
 g) $$ \log_{1} 7 = x $$
 
+<hr />
+
+h) <font size=5>$$ 16^{\log_{2}5} = x $$</font>
+
+[Ferreto: Logartitmo: Conseguências da Definição, 10:10](https://www.youtube.com/watch?v=cjXN-cs5deo&list=PLTPg64KdGgYiyW4u-g8y-dSkT1iz2cUKA&index=4)
+
 
 
 ## 3. Simplies the following equation
