@@ -7,3 +7,4 @@
 * [Algorithms](algorithms.md)
 * [Apps](apps/README.md)
 * [Statistics](stats.md)
+* [Maths](maths.md)
