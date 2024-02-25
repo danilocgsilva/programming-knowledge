@@ -112,3 +112,18 @@ f) $$ (2xy^2)^3 $$
 
 g) $$ ({16ab^4 \over -8a^2b^7})^{-3}  $$
 
+## 4. Set the allowable values for x (or the condition for logarithm existence).
+
+a) $$ \log_{2}(x-2) $$
+
+<hr />
+
+b) $$ \log_{1/3}(-x^2 + 5x - 4) $$
+
+<hr />
+
+c) $$ \log_{x-3}(x+5) $$
+
+<hr />
+
+d) $$ \log_{x-2}(x^2 - 4x - 5) $$
