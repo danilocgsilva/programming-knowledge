@@ -94,7 +94,12 @@ while ($count <= 10) {
 * 226
 * 95
 
-2. What is the result of the following expressions? Considers to store number in with 16 bits when necessary.
+2. Convert the following binary number to decimal
+
+* 1101100111
+* 100101
+
+3. What is the result of the following expressions? Considers to store number in with 16 bits when necessary.
 
 * a. `222 << 2`
 * b. `56 & 33`
