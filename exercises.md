@@ -72,6 +72,17 @@ while ($count <= 10) {
 
 6. Creates a function that tells an *amount of oranges that you have*. For example: if a have no oranges, then prints "I have no organges.". If I have one orange, them prints "I have one orange". If have 2 or more oranges, them prints "I have several oranges".
 
+7. Create a *guess game*.
+
+* Generates a random number.
+* Ask to the user to write a number that he wonders that was choosen by the script.
+* Tells to the user if he guessed correctly. Otherwise, tells if the guessed number are greater or lesser than the number choosen by your script.
+
+8. Create a BMI program.
+* The user gives its weight and height.
+* The program responds to the user its situation.
+Think that such program is to help someone to keep a good health. Think in the possible messagens send to the user that should drive some of its action to take a better care about he or she own helth, or just inform that it is everything fine, if it is the case.
+
 ## Basic of classes
 
 1. Write a class called `Person`. The class must have it's height and weight as a property. Also, a property called name (helding the person name) to facilitates the person identification. Then, in the class itself also must have a method that calculates the BMI, call this method as `getMbi`. And finally, write another method called `condition`, that just prints a *person condition*, stating that the person is *thin*, *normal* or *overweight*, based on the data in https://www.diabetes.ca/managing-my-diabetes/tools---resources/body-mass-index-(bmi)-calculator. 
