@@ -83,6 +83,12 @@ while ($count <= 10) {
 * The program responds to the user its situation.
 Think that such program is to help someone to keep a good health. Think in the possible messagens send to the user that should drive some of its action to take a better care about he or she own helth, or just inform that it is everything fine, if it is the case.
 
+9. Create a program that performs the dollar to real conversion. You can thing of any rate, but for the purpose of this exercise, consider the dollar equivalente to 5.20 reais.
+
+10. Create a program that performs the Celsius to Fahrenheit conversion.
+
+11. Create a program that performs the Celsius to Kelvin conversion.
+
 ## Basic of classes
 
 1. Write a class called `Person`. The class must have it's height and weight as a property. Also, a property called name (helding the person name) to facilitates the person identification. Then, in the class itself also must have a method that calculates the BMI, call this method as `getMbi`. And finally, write another method called `condition`, that just prints a *person condition*, stating that the person is *thin*, *normal* or *overweight*, based on the data in https://www.diabetes.ca/managing-my-diabetes/tools---resources/body-mass-index-(bmi)-calculator. 
