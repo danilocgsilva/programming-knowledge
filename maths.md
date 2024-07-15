@@ -133,3 +133,15 @@ c) $$ \log_{x-3}(x+5) $$
 <hr />
 
 d) $$ \log_{x-2}(x^2 - 4x - 5) $$
+
+## 5. Given the following table of results:
+
+x | f(x)
+----|---
+-1 | 4
+0 | 3
+1 | 4
+2 | 7
+3 | 12
+
+Tries to discover the underlying function that yields the results.
