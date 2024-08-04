@@ -8,3 +8,4 @@
 * [Apps](apps/README.md)
 * [Statistics](stats.md)
 * [Maths](maths.md)
+* [How to develop](how_to_develop.md)
