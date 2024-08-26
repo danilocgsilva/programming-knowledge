@@ -129,3 +129,12 @@ class Stack
     }
 }
 ```
+
+8. What is the difference in side effect between:
+```
+echoBlock($arrayCalculations[] = calculatesProportion());
+```
+and
+```
+echoBlock(($arrayCalculations[] = calculatesProportion()));
+```
