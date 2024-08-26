@@ -138,3 +138,8 @@ and
 ```
 echoBlock(($arrayCalculations[] = calculatesProportion()));
 ```
+
+9. Describe what happens:
+```
+$sum += $propotionCalculated = calculatesProportion();
+```
