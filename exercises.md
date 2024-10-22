@@ -200,6 +200,17 @@ b) Automatically and randomly assign the ability scores to each of twelve abilit
 
 This means that the sum of all twelve abilities must match the initial score give.
 
+3. From Leet code: Remove Elements
+
+Given an integer array nums and an integer array val, remove all occurrences of val from nums in-place. The order of the elements may be changed. Then return the number of elements in nums which are not equal to val.
+
+Consider the number of elements in nums that are not equal to val to be k. To get accepted, you need to:
+
+1. Modify the array nums such that the first k elements contain the values which are not equal to val.
+2. The remaining elements of nums are not important.
+3. Return k
+
+
 # Design Patterns
 
 1. Check the following module:
