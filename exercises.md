@@ -330,11 +330,16 @@ s/[^aeiou]//g
 
 ## Specific ones
 
-In what language this array value assigment is valid?
+1. In what language this array value assigment is valid?
 
 ```
 $vowelcount{$vowel} += 1;
 ```
+
+2. Create a function which checks if a word or a phrase is a palindrome.
+
+3. Create a function that receives three numbers, and return it in ascending order.
+
 
 ## Algorithms
 
