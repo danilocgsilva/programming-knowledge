@@ -9,3 +9,4 @@
 * [Statistics](stats.md)
 * [Maths](maths.md)
 * [How to develop](how_to_develop.md)
+* [Logic](logic.md)
