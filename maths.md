@@ -2,7 +2,7 @@
 
 ## 1. Use the exponential properties to rewrite the equations.
 
-Source: [Ferreto: Função exponencial aula 1 Revisão de Potenciação](https://www.youtube.com/watch?v=n5NRv2cWQIg&list=PLTPg64KdGgYhllRJbaGMQGRa-3-3RNGzb)
+Source: [Ferreto: Funï¿½ï¿½o exponencial aula 1 Revisï¿½o de Potenciaï¿½ï¿½o](https://www.youtube.com/watch?v=n5NRv2cWQIg&list=PLTPg64KdGgYhllRJbaGMQGRa-3-3RNGzb)
 
 a) $$ a^2 \times a^5 $$
 
@@ -82,13 +82,13 @@ g) $$ \log_{1} 7 = x $$
 
 h) <font size=5>$$ 16^{\log_{2}5} = x $$</font>
 
-[Ferreto: Logartitmo: Conseguências da Definição, 10:10](https://www.youtube.com/watch?v=cjXN-cs5deo&list=PLTPg64KdGgYiyW4u-g8y-dSkT1iz2cUKA&index=4)
+[Ferreto: Logartitmo: Conseguï¿½ncias da Definiï¿½ï¿½o, 10:10](https://www.youtube.com/watch?v=cjXN-cs5deo&list=PLTPg64KdGgYiyW4u-g8y-dSkT1iz2cUKA&index=4)
 
 
 
 ## 3. Simplies the following equation
 
-Source: [Ferreto: Função exponencial aula 1 Revisão de Potenciação](https://www.youtube.com/watch?v=n5NRv2cWQIg&list=PLTPg64KdGgYhllRJbaGMQGRa-3-3RNGzb)
+Source: [Ferreto: Funï¿½ï¿½o exponencial aula 1 Revisï¿½o de Potenciaï¿½ï¿½o](https://www.youtube.com/watch?v=n5NRv2cWQIg&list=PLTPg64KdGgYhllRJbaGMQGRa-3-3RNGzb)
 
 (15:02)
 
@@ -145,3 +145,5 @@ x | f(x)
 3 | 12
 
 Tries to discover the underlying function that yields the results.
+
+## 6. In Brazil, it is selled fuel in two flavors: gasoline and alcool. The price of liter for gasoline is $ 6.50 . Meanwhile, the liter of alcool is selled by $ 4.10. But that is a catch: the regislation states that a liter of gasoline must have a mix of 27% of alcool. The question: what would be the *real* price of the gasoline, if it is selled in a mix of 100% of gasoline? 
