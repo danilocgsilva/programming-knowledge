@@ -1,0 +1,7 @@
+services:
+  php_playground:
+    container_name: php_playground
+    build:
+      context: .
+    volumes:
+      - ./code:/code
