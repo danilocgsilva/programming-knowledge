@@ -146,4 +146,10 @@ x | f(x)
 
 Tries to discover the underlying function that yields the results.
 
-## 6. In Brazil, it is selled fuel in two flavors: gasoline and alcool. The price of liter for gasoline is $ 6.50 . Meanwhile, the liter of alcool is selled by $ 4.10. But that is a catch: the regislation states that a liter of gasoline must have a mix of 27% of alcool. The question: what would be the *real* price of the gasoline, if it is selled in a mix of 100% of gasoline? 
+## 6. In Brazil, it is selled fuel in two flavors: gasoline and alcohol. The price of liter for gasoline is $ 6.50 . Meanwhile, the liter of alcohol is selled by $ 4.10. But that is a catch: the regislation states that a liter of gasoline must have a mix of 27% of alcohol. The question: what would be the *real* price of the gasoline, if it is selled in a mix of 100% of gasoline?
+
+Observation: maybe the price for gasoline, alcohol and the tax changes. There's an script in the playground/php to handle this issue, so you can change the values to test the *real price*.
+
+## How to do by hand the following operation?
+
+$$ 5.393 \over 0.72
