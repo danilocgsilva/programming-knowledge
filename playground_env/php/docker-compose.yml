@@ -5,3 +5,4 @@ services:
       context: .
     volumes:
       - ./code:/code
+    working_dir: /code
