@@ -10,6 +10,10 @@
 
 5. A program that receives three numbers, e put all in crescent order.
 
+6. Write a program that calculates the fatorial of a given number.
+
+7. Write a program that tells us if a given number is prime or not.
+
 6. Ask to the user two numbers, and an operation. The results must return the number, if is even or odd, positive or negative, and if is integer or decimal.
 
 7. Ask to provides three numbers, representing a length from a tringle sides. The program must inform if the number can be used to draw a triangle, and also tells if the triangle is equilateral, isosceles or scalene.
@@ -26,3 +30,7 @@
 10. The body mass index.
 * Ask to the user his or her height and weight.
 * Depending on the calculations, tell if the user is underweight, normal weight, overweight or in obesity. Return the BMI index as well.
+
+11. Write a program that calculates how many days will be required for bacterial colony A surpass or be equal to bacterial colony B, based on growth rate of 3% and 1.5%, respectively. Assume colony A starts with 4 individuals, and colony B starts with 10 individual.
+
+12. 
