@@ -48,14 +48,15 @@ numbers greater than 500 without repeating digits. For
 example, he might write 543. 
 How many numbers does Renan write?
 
-12. Mike has to take medication for 180 days. 
-The prescription says that he has to take it two days in a row, then skip 1 day. 
-He will repeat this pattern for 180 days. 
-If he begins taking the medicine on a Monday, how many times will he take it on a Monday and then on 
-Tuesday of the same week?
+12. Mike has to take medication for 180 days. The prescription says that he has to take it two days in a row, then skip 1 day. He will repeat this pattern for 180 days. If he begins taking the medicine on a Monday, how many times will he take it on a Monday and then on Tuesday of the same week?
 
-13. There are 28 couples at a party. 
+13. There are 28 couples at a party.
 Each person shakes hands with every other person, except their own spouse. 
-When the party is over, Mr. Mitsuya asks each attendant how
- many hands they shook, and everyone tells him a different number. 
+When the party is over, Mr. Mitsuya asks each attendant how many hands they shook, and everyone tells him a different number. 
 How many hands did Mr. Mitsuya shake?
+
+14. I have two buckets of water, one of 3 liters of capacity and other with 5 liters of capacity. I have also available an infinit source of water. I want to have 4 liters of water, following the rules:
+* The buckets does not have marks for water amount.
+* I have no way to measure the amount of water.
+* Once I change the water from a bucket to another, I must do so until the next bucket is full of water, or the first bucket is empty.
+* I can discard water from buckets, but once I do, I must discard all the water.
