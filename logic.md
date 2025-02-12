@@ -56,7 +56,7 @@ When the party is over, Mr. Mitsuya asks each attendant how many hands they shoo
 How many hands did Mr. Mitsuya shake?
 
 14. I have two buckets of water, one of 3 liters of capacity and other with 5 liters of capacity. I have also available an infinit source of water. I want to have 4 liters of water, following the rules:
-* The buckets does not have marks for water amount.
+* The buckets do not have marks for measuring the amount of water.
 * I have no way to measure the amount of water.
-* Once I change the water from a bucket to another, I must do so until the next bucket is full of water, or the first bucket is empty.
-* I can discard water from buckets, but once I do, I must discard all the water.
+* Once I transfer the water from one bucket to another, I must continue until the next bucket is full or the first bucket is empty.
+* I can discard water from buckets, but once I do, I must discard all of it.
