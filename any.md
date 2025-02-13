@@ -6,6 +6,8 @@
 
 1. Prints even numbers from 2 to 24.
 
+1. Ask the user some numbers. In the end, print all numbers received from user at once.
+
 1. A program that receives three numbers, and tells wich one is bigger.
 
 1. Write a console script that receives any number of numbers, calculates the mean and print out in the console.

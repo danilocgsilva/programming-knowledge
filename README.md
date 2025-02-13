@@ -12,4 +12,4 @@
 * [How to develop](how_to_develop.md)
 * [Logic](logic.md)
 * [php](php.md)
-* [paths](paths.md)
+* [paths to learn](paths.md)
