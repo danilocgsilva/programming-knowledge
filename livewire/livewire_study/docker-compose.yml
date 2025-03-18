@@ -1,0 +1,10 @@
+services:
+  livewire_study:
+    build:
+      context: .
+    container_name: livewire_study
+    volumes:
+      - './app:/app'
+    ports:
+      - '8000:8000'
+    working_dir: /app
