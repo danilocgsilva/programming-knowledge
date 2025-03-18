@@ -1,7 +1,7 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
+use App\RouteList;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+foreach ((new RouteList())->list as $myRoute) {
+    $myRoute->set();
+}
