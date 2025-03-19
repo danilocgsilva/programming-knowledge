@@ -8,9 +8,13 @@ class RouteList
     
     public function __construct() {
         $this->list = [
-            new MyRoute("welcome", "/"),
-            new MyRoute("counter"),
-            new MyRoute("counter-hurry")
+            new MyRoute("welcome", $this, "/"),
+            new MyRoute("counter", $this),
+            new MyRoute("counter-hurry", $this),
+            new MyRoute("input-live", $this),
+            new MyRoute("input-live-faster", $this),
+            new MyRoute("input-live-slower", $this),
+            new MyRoute("turn-on-off", $this),
         ];
     }
 }
