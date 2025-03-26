@@ -19,6 +19,7 @@ class RouteList
             new MyRoute("list-greetings-value", $this),
             new MyRoute("car-brands", $this),
             new MyRoute("multiple-greetings", $this),
+            new MyRoute("plus-and-minus", $this),
         ];
     }
 }
