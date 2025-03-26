@@ -20,6 +20,7 @@ class RouteList
             new MyRoute("car-brands", $this),
             new MyRoute("multiple-greetings", $this),
             new MyRoute("plus-and-minus", $this),
+            new MyRoute("all-uppercase-input", $this)
         ];
     }
 }
