@@ -6,7 +6,7 @@ use Livewire\Component;
 
 class Nesting extends Component
 {   
-    public $name = "Juca Mendes";
+    public $names = ["Juca Mendes", "Mariana", "Jehnnifer"];
 
     public function render()
     {
