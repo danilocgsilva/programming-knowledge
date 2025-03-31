@@ -21,7 +21,8 @@ class RouteList
             new MyRoute("multiple-greetings", $this),
             new MyRoute("plus-and-minus", $this),
             new MyRoute("all-uppercase-input", $this),
-            new MyRoute("nesting", $this)
+            new MyRoute("nesting", $this),
+            new MyRoute("refresh-time", $this)
         ];
     }
 }
