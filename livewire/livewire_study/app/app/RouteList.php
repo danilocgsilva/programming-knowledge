@@ -22,7 +22,8 @@ class RouteList
             new MyRoute("plus-and-minus", $this),
             new MyRoute("all-uppercase-input", $this),
             new MyRoute("nesting", $this),
-            new MyRoute("refresh-time", $this)
+            new MyRoute("refresh-time", $this),
+            new MyRoute("plus-minus-increments", $this)
         ];
     }
 }
