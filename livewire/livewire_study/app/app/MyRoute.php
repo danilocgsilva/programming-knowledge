@@ -8,14 +8,13 @@ class MyRoute
 {
     public function __construct(
         public readonly string $name,
-        public readonly RouteList $routeList,
         public readonly ?string $routeAddress = null
     ) {}
 
     public function set()
     {
         Route::get($this->getRouteAddress(), function () {
-            return view($this->name, ["routeList" => $this->routeList]);
+            return view($this->name);
         })->name($this->name);
     }
 

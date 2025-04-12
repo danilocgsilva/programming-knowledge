@@ -8,22 +8,23 @@ class RouteList
     
     public function __construct() {
         $this->list = [
-            new MyRoute("welcome", $this, "/"),
-            new MyRoute("counter", $this),
-            new MyRoute("counter-hurry", $this),
-            new MyRoute("input-live", $this),
-            new MyRoute("input-live-faster", $this),
-            new MyRoute("input-live-slower", $this),
-            new MyRoute("turn-on-off", $this),
-            new MyRoute("list-greetings", $this),
-            new MyRoute("list-greetings-value", $this),
-            new MyRoute("car-brands", $this),
-            new MyRoute("multiple-greetings", $this),
-            new MyRoute("plus-and-minus", $this),
-            new MyRoute("all-uppercase-input", $this),
-            new MyRoute("nesting", $this),
-            new MyRoute("refresh-time", $this),
-            new MyRoute("plus-minus-increments", $this)
+            new MyRoute("welcome", "/"),
+            new MyRoute("counter"),
+            new MyRoute("counter-hurry"),
+            new MyRoute("input-live"),
+            new MyRoute("input-live-faster"),
+            new MyRoute("input-live-slower"),
+            new MyRoute("turn-on-off"),
+            new MyRoute("list-greetings"),
+            new MyRoute("list-greetings-value"),
+            new MyRoute("car-brands"),
+            new MyRoute("multiple-greetings"),
+            new MyRoute("plus-and-minus"),
+            new MyRoute("all-uppercase-input"),
+            new MyRoute("nesting"),
+            new MyRoute("refresh-time"),
+            new MyRoute("plus-minus-increments"),
+            new MyRoute("nesting2/say-hi")
         ];
     }
 }
