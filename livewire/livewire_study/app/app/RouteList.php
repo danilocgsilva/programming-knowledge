@@ -26,6 +26,7 @@ class RouteList
             new MyRoute("plus-minus-increments"),
             new MyRoute("nesting2/say-hi"),
             new MyRoute("nesting3"),
+            new MyRoute("nesting-id"),
         ];
     }
 }
