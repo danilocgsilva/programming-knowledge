@@ -1,0 +1,8 @@
+services:
+  exercises_environment:
+    build:
+      context: .
+    container_name: exercises_environment
+    volumes:
+      - ./python:/python
+
