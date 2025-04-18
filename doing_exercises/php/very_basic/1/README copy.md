@@ -1,1 +1,0 @@
-1. Write a loop that prints `hello` ten times.

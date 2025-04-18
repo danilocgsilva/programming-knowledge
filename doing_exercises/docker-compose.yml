@@ -5,4 +5,5 @@ services:
     container_name: exercises_environment
     volumes:
       - ./python:/python
+      - ./php:/php
 
