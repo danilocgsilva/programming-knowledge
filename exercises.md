@@ -13,33 +13,67 @@
 
 ## Very basic
 
-1. Write a loop that prints `hello` ten times.
+### 1.
 
-2. Prints numbers from 1 to 12.
+Write a loop that prints `hello` ten times.
 
-3. Prints even numbers from 2 to 24.
+[python](doing_exercises/python/very_basic/1/main.py)
 
-4. Writes a script that receives a number as command line argument and sum all numbers from 1 until the given number and prints the result as a script output.
+### 2.
+
+Prints numbers from 1 to 12.
+
+[python](doing_exercises/python/very_basic/2/main.py)
+
+### 3.
+
+Prints even numbers from 2 to 24.
+
+[python](doing_exercises/python/very_basic/3/main.py)
+
+### 4.
+
+Writes a script that receives a number as command line argument and sum all numbers from 1 until the given number and prints the result as a script output.
+
+[python](doing_exercises/python/very_basic/4/main.py)
 
 ## Easy
 
-1. Writes a script that receives a number as command line argument and sum all numbers from 1 until the given number. Also, sum all even values. Them, as a scrip output, writes the sum from all numbers, and the sum of all even numbers as well.
+### 1.
 
-2. Create a list/array and iterate through elements.
+Writes a script that receives a number as command line argument and sum all numbers from 1 until the given number. Also, sum all even values. Them, as a scrip output, writes the sum from all numbers, and the sum of all even numbers as well.
 
-3. Create a loop to calculates the sum of all odd numbers from 1 to 10.
+### 2.
 
-4. Ask to the user a number. Then, prints the result of the times table from 1 to 10.
+Create a list/array and iterate through elements.
 
-5. Ask to the user a set of numbers. Then calculates the sum of all of it. You can use the `try/catch` block to deal with *dirty* user input.
+### 3.
 
-6. Ask to the user a set of numbers. Calculates its mean. You can use a `try/catch` block to deal with *dirty input* from the user.
+Create a loop to calculates the sum of all odd numbers from 1 to 10.
 
-7. Writes a script that keeps continually receiving a phrase from the user in the command line or that receives data from an file content through redirection, and as output for each line is the word's number from the phrase.
+### 4.
 
-8. Write a function that takes an array with a even count, then breaks the array in the half, extracting other two arrays, one with the first half of the values and another with the second half of the values.
+Ask to the user a number. Then, prints the result of the times table from 1 to 10.
 
-9. Creates a relational database as beign a business data schema:
+### 5.
+
+Ask to the user a set of numbers. Then calculates the sum of all of it. You can use the `try/catch` block to deal with *dirty* user input.
+
+### 6.
+
+Ask to the user a set of numbers. Calculates its mean. You can use a `try/catch` block to deal with *dirty input* from the user.
+
+### 7.
+
+Writes a script that keeps continually receiving a phrase from the user in the command line or that receives data from an file content through redirection, and as output for each line is the word's number from the phrase.
+
+### 8.
+
+Write a function that takes an array with a even count, then breaks the array in the half, extracting other two arrays, one with the first half of the values and another with the second half of the values.
+
+### 9.
+
+Creates a relational database as beign a business data schema:
 
 * Register an employee.
 * Register a department.
@@ -196,7 +230,7 @@ b) Automatically and randomly assign the ability scores to each of twelve abilit
 
 This means that the sum of all twelve abilities must match the initial score give.
 
-3. From Leet code: Remove Elements
+### 3. From Leet code: Remove Elements
 
 Given an integer array nums and an integer array val, remove all occurrences of val from nums in-place. The order of the elements may be changed. Then return the number of elements in nums which are not equal to val.
 
@@ -206,6 +240,16 @@ Consider the number of elements in nums that are not equal to val to be k. To ge
 2. The remaining elements of nums are not important.
 3. Return k
 
+### 4. Restaurant register**
+
+Create an command line application to register restaurants.
+
+The comand line application must presents four options:
+
+1. Register restaurant
+2. List restaurants
+3. Active restaurant
+4. Finish application
 
 # Design Patterns
 

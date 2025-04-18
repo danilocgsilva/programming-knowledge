@@ -1,0 +1,1 @@
+3. Prints even numbers from 2 to 24.
