@@ -25,25 +25,21 @@
 
 1. Writes a script that receives a number as command line argument and sum all numbers from 1 until the given number. Also, sum all even values. Them, as a scrip output, writes the sum from all numbers, and the sum of all even numbers as well.
 
-2. Can you find a problem in the following perl script?
+2. Create a list/array and iterate through elements.
 
-**Worth to say**: The `next` statement means that the loop block should be interrupted in the current iteration and continues to the next iteration.
+3. Create a loop to calculates the sum of all odd numbers from 1 to 10.
 
-```perl
-$count = 0;
-while ($count <= 10) {
-    if ($count == 5) {
-        next;
-    }
-    $count++;
-}
-```
+4. Ask to the user a number. Then, prints the result of the times table from 1 to 10.
 
-3. Writes a script that keeps continually receiving a phrase from the user in the command line or that receives data from an file content through redirection, and as output for each line is the word's number from the phrase.
+5. Ask to the user a set of numbers. Then calculates the sum of all of it. You can use the `try/catch` block to deal with *dirty* user input.
 
-4. Write a function that takes an array with a even count, then breaks the array in the half, extracting other two arrays, one with the first half of the values and another with the second half of the values.
+6. Ask to the user a set of numbers. Calculates its mean. You can use a `try/catch` block to deal with *dirty input* from the user.
 
-5. Creates a relational database as beign a business data schema:
+7. Writes a script that keeps continually receiving a phrase from the user in the command line or that receives data from an file content through redirection, and as output for each line is the word's number from the phrase.
+
+8. Write a function that takes an array with a even count, then breaks the array in the half, extracting other two arrays, one with the first half of the values and another with the second half of the values.
+
+9. Creates a relational database as beign a business data schema:
 
 * Register an employee.
 * Register a department.

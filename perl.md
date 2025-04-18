@@ -40,7 +40,21 @@ $count = 0;
 print($count . "\n") while ($count++ < 5);
 ```
 
-5. Given the following statements:
+5. Can you find a problem in the following perl script?
+
+**Worth to say**: The `next` statement means that the loop block should be interrupted in the current iteration and continues to the next iteration.
+
+```perl
+$count = 0;
+while ($count <= 10) {
+    if ($count == 5) {
+        next;
+    }
+    $count++;
+}
+```
+
+6. Given the following statements:
 ```
 @list2 = ("John", "Mike", "Larissa", "Beatrice");
 ($scalar, @list1) = @list2;
@@ -50,7 +64,7 @@ A) What is the value of `$scalar`?
 
 B) What is the value of `@list1`?
 
-6. Given the following statements:
+7. Given the following statements:
 ```
 @list2 = ("John", "Mike", "Larissa", "Beatrice");
 (@list1, $scalar) = @list2;
@@ -60,9 +74,9 @@ A) What is the value of `@list1`?
 
 B) What is the value of `$scalar`?
 
-7. What is the difference between `<=>` and `cmp`?
+8. What is the difference between `<=>` and `cmp`?
 
-8. Tell what the following script does:
+9. Tell what the following script does:
 ```perl
 #!/usr/bin/perl
 
@@ -90,7 +104,7 @@ Number of vowels found in text file:
 .
 ```
 
-9. Which usually the *modifiers* variable means about the kind of the variable?
+10. Which usually the *modifiers* variable means about the kind of the variable?
 
 a) `$my_variable`
 
