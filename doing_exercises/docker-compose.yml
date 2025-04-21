@@ -6,4 +6,5 @@ services:
     volumes:
       - ./python:/python
       - ./php:/php
+      - ./node:/node
 

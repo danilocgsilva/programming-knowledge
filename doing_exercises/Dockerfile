@@ -23,4 +23,8 @@ RUN apt-get update
 RUN apt install php8.4-cli -y
 RUN mkdir /php
 
+# Adding node
+RUN curl -sL https://deb.nodesource.com/setup_22.x | bash -
+RUN apt-get install -y nodejs
+
 CMD while : ; do sleep 1000; done
