@@ -139,6 +139,18 @@ Tip value: 12.00
 Total to be paid: 132.00
 ```
 
+13. Angela is a language teatcher and wants a program that counts the vowels in a text typed the her studants.
+
+Creates a program that ask a text and shows how many vowels (a, e, i, o, u) it contains.
+
+14. Hellen is a text reviwer and needs to identify longer words in a paragraph. Easier texts to read usually have shorts words, so she wants a program that finds words that have more than 10 letters and shows in highlights. If not big words is found, it should warns the user.
+
+15. Robert is developing a sistem for registering and needs to generate secure passwords for the users. He wants a program that generates random passwords com uppercase letters, lowercase ones, numbers and special characters.
+
+Create a program that generates a random password of 12 characters, having at least one uppercase letter, a lowecase letter, a number and a special character. Shows the generated password.
+
+16. Create a program that validates strong passwords. This program will check if the password contains at least one uppercase letter, lowercase letter, number and special character.
+
 ## Basic of classes
 
 1. Write a class called `Person`. The class must have it's height and weight as a property. Also, a property called name (helding the person name) to facilitates the person identification. Then, in the class itself also must have a method that calculates the BMI, call this method as `getMbi`. And finally, write another method called `condition`, that just prints a *person condition*, stating that the person is *thin*, *normal* or *overweight*, based on the data in https://www.diabetes.ca/managing-my-diabetes/tools---resources/body-mass-index-(bmi)-calculator. 
