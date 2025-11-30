@@ -119,6 +119,26 @@ Think that such program is to help someone to keep a good health. Think in the p
 
 11. Create a program that performs the Celsius to Kelvin conversion.
 
+12. Kevin work in a restaurant as a waiter and needs to calculates the tip that receive from customers. The restaurant suggests a tip of 10%, but customers can give more or less.
+
+To speed up the process, Kevin wants a program that receives the total value from the bill and the percentage of desired tip and shows the final value the customer shoud pay.
+
+Creates a program that ask to the user a *bill value* and the *tip percentage*. The program must calculates the tip value and the total to be paid.
+
+Example of program entry:
+
+```
+Type the bill value: 120.00
+Type the percentage: 10
+```
+
+Example of data showed:
+
+```
+Tip value: 12.00
+Total to be paid: 132.00
+```
+
 ## Basic of classes
 
 1. Write a class called `Person`. The class must have it's height and weight as a property. Also, a property called name (helding the person name) to facilitates the person identification. Then, in the class itself also must have a method that calculates the BMI, call this method as `getMbi`. And finally, write another method called `condition`, that just prints a *person condition*, stating that the person is *thin*, *normal* or *overweight*, based on the data in https://www.diabetes.ca/managing-my-diabetes/tools---resources/body-mass-index-(bmi)-calculator. 
