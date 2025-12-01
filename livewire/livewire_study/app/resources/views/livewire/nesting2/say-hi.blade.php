@@ -1,3 +1,3 @@
 <div>
-    <p>Say hi again!</p>
+    <p>Hello, {{ $name }}</p>
 </div>

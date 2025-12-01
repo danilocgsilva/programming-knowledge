@@ -151,6 +151,18 @@ Create a program that generates a random password of 12 characters, having at le
 
 16. Create a program that validates strong passwords. This program will check if the password contains at least one uppercase letter, lowercase letter, number and special character.
 
+17. Andrew wants to create a rock-paper-scissor game to play against the computer. He needs a program that allow the user to choose an option and after show the match result.
+
+Create a program that allowa the user choose between rock, paper and scissor. The computer will also create randomly an option. The program mauy show who win the match. Remember:
+
+* Rock beats scissor (rock break the scissor)
+
+* Scissor beats paper (scissor cut paper)
+
+* Paper beats rock (paper wrap rock)
+
+* If both choose the same option, it is a draw.
+
 ## Basic of classes
 
 1. Write a class called `Person`. The class must have it's height and weight as a property. Also, a property called name (helding the person name) to facilitates the person identification. Then, in the class itself also must have a method that calculates the BMI, call this method as `getMbi`. And finally, write another method called `condition`, that just prints a *person condition*, stating that the person is *thin*, *normal* or *overweight*, based on the data in https://www.diabetes.ca/managing-my-diabetes/tools---resources/body-mass-index-(bmi)-calculator. 

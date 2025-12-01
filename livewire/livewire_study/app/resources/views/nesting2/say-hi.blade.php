@@ -4,6 +4,6 @@
 
 <p>Say hi!</p>
 
-@livewire("nesting2.say-hi")
+@livewire("nesting2.say-hi", ['name' => $name])
 
 @endsection
