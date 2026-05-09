@@ -88,6 +88,18 @@ Creates a relational database as beign a business data schema:
 * A project also MUST NOT exists without an eployee.
 * An emplyee can supervisor another employee.
 
+### 10.
+
+You are developing a feature for a snack bar. The system needs to calculate the total value of an order based on the quantity of items requested.
+
+The customer can order:
+
+* Burger: $ 12,00
+* French fries: $ 7,00
+* Soft drink: $ 5,00
+
+Your task is to create an algorithm in natural language or flowchart that stores the necessary data in variables and calculates the total value based on the quantity provided.
+
 ## Problems solved by the basics
 
 1. Write a program that prints every number from 0 to 1 that has a single digit after the decimal place (that is, 0.1, 0.2 and so on).
