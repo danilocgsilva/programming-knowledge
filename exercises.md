@@ -100,6 +100,18 @@ The customer can order:
 
 Your task is to create an algorithm in natural language or flowchart that stores the necessary data in variables and calculates the total value based on the quantity provided.
 
+### 11.
+
+You are developing the ticketing system for a movie theater. The customers may be eligible for discounted tickets in two situatios.
+
+* If they are under 18 years old.
+
+or
+
+* If they are students
+
+Your task is to create a algorithm, either in natural language or using a graphical representation (such as flowchart), that evalutates the customer information and displays a message indicating whether or not he is eligible.
+
 ## Problems solved by the basics
 
 1. Write a program that prints every number from 0 to 1 that has a single digit after the decimal place (that is, 0.1, 0.2 and so on).
