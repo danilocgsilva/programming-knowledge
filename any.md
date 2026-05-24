@@ -37,3 +37,47 @@
 
 1. Write a program that calculates how many days will be required for bacterial colony A surpass or be equal to bacterial colony B, based on growth rate of 3% and 1.5%, respectively. Assume colony A starts with 4 individuals, and colony B starts with 10 individual.
 
+1. Tell about the different scripts:
+
+```rust
+fn main() {
+    let x = 5;
+    let x = x + 1;
+    {
+        let x = x * 2;
+        println!("The value of x in the inner scope is: {x}");
+    }
+    println!("The value of x is: {x}");
+}
+```
+
+```javascript
+function test() {
+    let x = 5;
+    let x = x + 1;
+    function test2() {
+        let x = x * 2;
+        console.log(`The value of x in the inner scope is: ${x}`);
+    }
+    console.log(`The value of x is: ${x}`);
+}
+```
+
+```typescript
+function teste(): void {
+    let x = 5;
+    let x = x + 1;
+    function test2() {
+        let x = x * 2;
+        console.log(`The value of x in the inner scope is: ${x}`);
+    }
+    console.log(`The value of x is ${x}`);
+}
+```
+
+For each code snippet, tell:
+
+1. Will it compile?
+2. If compile, which will be the x value in the inner scope?
+3. Them, which will be x value in the outer scope?
+
