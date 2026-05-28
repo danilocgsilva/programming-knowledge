@@ -112,6 +112,16 @@ or
 
 Your task is to create a algorithm, either in natural language or using a graphical representation (such as flowchart), that evalutates the customer information and displays a message indicating whether or not he is eligible.
 
+### 12.
+
+You work in a logistic company, and it needs an algorithm to calculates the freight price:
+* Up to 5 km, the tax is $ 5.
+* From 5 to 10 km, the tax is $8.
+* Above 10 km, the tax is $ 10.
+* if it is raining, adds $ 2 to standard rate.
+
+Create the algorithm to make the calculation.
+
 ## Problems solved by the basics
 
 1. Write a program that prints every number from 0 to 1 that has a single digit after the decimal place (that is, 0.1, 0.2 and so on).
