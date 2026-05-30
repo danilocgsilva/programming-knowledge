@@ -122,6 +122,16 @@ You work in a logistic company, and it needs an algorithm to calculates the frei
 
 Create the algorithm to make the calculation.
 
+### 13.
+
+You habe been hired for a coffee shop that wants automates the counter service. The system must allow the attendant register each customer's orders, calculate the total value and apply a 10% discount for registered customers.
+
+Thr process should works as follows:
+* The attendant informs how many items the customer will request.
+* For each item, the system requests the name and the price.
+* Finally, o system asks if the customer is registerd.
+* If he is, it applies the discount and display the discounted price.
+
 ## Problems solved by the basics
 
 1. Write a program that prints every number from 0 to 1 that has a single digit after the decimal place (that is, 0.1, 0.2 and so on).
