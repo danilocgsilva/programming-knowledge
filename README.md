@@ -13,3 +13,4 @@
 * [Logic](logic.md)
 * [php](php.md)
 * [paths to learn](paths.md)
+* [computing science](computing_science.md)
